@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원가입</title>
+    <style>
+      form ul li {
+        margin-bottom: 5px;
+        list-style-type: none;
+      }
+      a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>회원가입</h2>
+    <form action="./welcome.html">
+      <ul>
+        <li>아이디(ID) : <input type="text" name="id" /></li>
+        <li>비밀번호(PW) : <input type="password" name="pw" /></li>
+        <li>이름 : <input type="text" name="name" /></li>
+        <li>
+          성별 :
+          <input type="radio" name="gender" value="man" />
+          <label>남</label>
+          <input type="radio" name="gender" value="woman" />
+          <label>여</label>
+        </li>
+        <li>
+          연락처 :
+          <input type="tel" name="tel" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" />
+        </li>
+        <li>
+          스타일 : <br />
+          <input type="checkbox" name="style" value="casual" />
+          <label>일상복</label>
+          <input type="checkbox" name="style" value="office" />
+          <label>회사룩</label>
+          <input type="checkbox" name="style" value="kids" />
+          <label>아동복</label>
+          <input type="checkbox" name="style" value="exercise" />
+          <label>운동복</label>
+        </li>
+        <li>
+          <input type="submit" value="회원가입" />
+        </li>
+      </ul>
+    </form>
+  </body>
+</html>
