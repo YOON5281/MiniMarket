@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<script>
+
+	function printName() {
+		
+		const text = document.getElementById('tx_name')
+		alert(text.value + "님 환영합니다!");
+	}
+
+</script>
+<body>
+<!-- 
+당신의 이름을 입력하세요.
+INPUT TEXT 상자
+버튼을 [당신의 이름은]을 누르면 alert "OOO님 환영합니다.
+ -->
+
+<h3>당신의 이름을 입력하세요</h3>
+<input type="text" id="tx_name" />
+<input type="button" value="당신의 이름은?" onclick="printName()">
+
+</body>
+</html>

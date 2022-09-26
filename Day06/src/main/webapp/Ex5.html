@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+<h2 id="day_txt">지금은 데이모드입니다.</h2>
+<input type="button" value="다크모드" id="btn" onclick="convertMode()"/>
+
+<script>
+
+  let mode = 0;
+  
+	function convertMode(){
+		
+		if(mode === 0){
+		
+		document.body.style.backgroundColor = "black";
+		document.getElementById('day_txt').style.color = "white";
+		document.getElementById('day_txt').innerText = "지금은 다크모드입니다.";
+		document.getElementById('btn').value = "데이모드";
+		mode = 1;
+		
+		}else{
+		
+			document.body.style.backgroundColor = "white";
+			document.getElementById('day_txt').style.color = "black";
+			document.getElementById('day_txt').innerText = "지금은 데이모드입니다.";
+			document.getElementById('btn').value = "다크모드";
+			mode = 0;
+			
+		}
+	}
+
+</script>
+
+</body>
+</html>
