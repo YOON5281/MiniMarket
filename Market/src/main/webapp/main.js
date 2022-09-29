@@ -43,7 +43,7 @@ function idCheck() {
       cnt++;
     }
     if (loginId.value != "" && loginPW.value != "" && cnt == idList.length) {
-      document.getElementById("logInForm").action = "/Market/index.html";
+      document.getElementById("logInForm").action = "./index.html";
       alert("사용가능합니다");
     }
   }
