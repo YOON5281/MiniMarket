@@ -5,41 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>게시판</title>
-    <style>
-      form ul li {
-        margin-bottom: 5px;
-        list-style-type: none;
-      }
-      a {
-        text-decoration: none;
-      }
-      #content {
-        position: relative;
-        top: -60px;
-      }
-    </style>
+    <link href="main.css" type="text/css" rel="styleSheet" />
   </head>
   <body>
-    <h2>게시판</h2>
-    <form action="./index.html">
-      <ul>
-        <li>
-          <label for="category">카테고리 : </label>
-          <select id="category" name="category">
-            <option value="delivery">배송</option>
-            <option value="order">주문</option>
-          </select>
-        </li>
-        <li>제목 : <input type="text" name="title" /></li>
-        <li>작성자 : <input type="text" name="name" /></li>
-        <li>날짜 : <input type="date" name="date" /></li>
-        <li>
-          <label id="content">내용 : </label>
-          <textarea name="content" cols="30" rows="5"></textarea>
-        </li>
-      </ul>
-      <input type="submit" value="등록하기" />
-      <input type="reset" value="취소하기" />
-    </form>
+    <div id="board">
+      <h2>게시판</h2>
+      <form action="./index.html">
+        <ul>
+          <li>
+            <label for="category">카테고리 : </label>
+            <select id="category" name="category">
+              <option value="delivery">배송</option>
+              <option value="order">주문</option>
+            </select>
+          </li>
+          <li>제목 : <input type="text" name="title" /></li>
+          <li>작성자 : <input type="text" name="name" /></li>
+          <li>날짜 : <input type="date" name="date" /></li>
+          <li>
+            <label id="content">내용 : </label>
+            <textarea name="content" cols="60" rows="10"></textarea>
+          </li>
+        </ul>
+        <div class="boardBtn">
+          <input type="submit" value="등록하기" />
+          <input type="reset" value="취소하기" />
+        </div>
+      </form>
+    </div>
   </body>
 </html>

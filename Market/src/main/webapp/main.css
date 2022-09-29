@@ -1,0 +1,103 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+form ul li {
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+
+#logIn {
+  border: 1px solid green;
+  width: 30%;
+  height: 300px;
+  margin: 0 auto;
+  position: absolute;
+  top: 300px;
+  left: 35%;
+}
+#logIn h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+#logIn form {
+  margin: auto;
+  width: 50%;
+  height: 50%;
+}
+#logIn form ul {
+  margin-top: 20%;
+}
+#logIn form ul li {
+  margin-left: 10px;
+}
+#logIn_btn {
+  margin-left: 45%;
+  margin-top: 20px;
+}
+#Join {
+  border: 1px solid green;
+  margin: 0 auto;
+  position: absolute;
+  top: 300px;
+  left: 25%;
+  width: 40%;
+}
+#Join h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+#Join form {
+  margin-left: 5%;
+}
+#Main {
+  margin: 0 auto;
+  position: absolute;
+  top: 300px;
+  left: 25%;
+  width: 40%;
+}
+
+#Main h1,
+#Main h3,
+#Main p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Main p a {
+  margin-left: 2%;
+}
+
+#modeButton {
+  margin: 46%;
+  margin-top: 20px;
+}
+#board {
+  border: 1px solid green;
+  margin: 0 auto;
+  position: absolute;
+  top: 200px;
+  left: 30%;
+  width: 40%;
+  height: 460px;
+}
+#board h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+#content {
+  position: relative;
+  top: -120px;
+}
+.boardBtn {
+  margin-left: 36%;
+  margin-top: 20px;
+}

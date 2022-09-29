@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>Insert title here</title>
+<title>다크모드</title>
 </head>
 <body>
 
@@ -12,17 +12,17 @@
 
 <script>
 
-  let mode = 0;
+  let mode = true;
   
 	function convertMode(){
 		
-		if(mode === 0){
+		if(mode === true){
 		
 		document.body.style.backgroundColor = "black";
 		document.getElementById('day_txt').style.color = "white";
 		document.getElementById('day_txt').innerText = "지금은 다크모드입니다.";
 		document.getElementById('btn').value = "데이모드";
-		mode = 1;
+		mode = false;
 		
 		}else{
 		
@@ -30,7 +30,7 @@
 			document.getElementById('day_txt').style.color = "black";
 			document.getElementById('day_txt').innerText = "지금은 데이모드입니다.";
 			document.getElementById('btn').value = "다크모드";
-			mode = 0;
+			mode = true;
 			
 		}
 	}

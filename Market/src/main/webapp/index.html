@@ -5,20 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>마켓 메인</title>
-    <style>
-      a {
-        text-decoration: none;
-      }
-    </style>
+    <link href="main.css" type="text/css" rel="styleSheet" />
+    <script type="text/javascript" src="main.js"></script>
   </head>
   <body>
-    <h1>어서오세요.</h1>
-    <h3>서준의 Market입니다.</h3>
+    <div id="Main">
+      <h1 class="mode">어서오세요.</h1>
+      <h3 class="mode">서준의 Market입니다.</h3>
 
-    <p>
-      <a href="./board.html">게시판</a>
-      <a href="./login.html">로그인</a>
-      <a href="./join.html">회원가입</a>
-    </p>
+      <p>
+        <a href="./board.html" class="mode">게시판</a>
+        <a href="./login.html" class="mode">로그인</a>
+        <a href="./join.html" class="mode">회원가입</a>
+      </p>
+
+      <button id="modeButton" onclick="modeChange()">다크모드</button>
+    </div>
   </body>
 </html>
