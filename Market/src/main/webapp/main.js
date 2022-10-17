@@ -60,7 +60,7 @@ function idCheck2() {
       cnt++;
     }
     if (JoinId.value != "" && JoinPW.value != "" && cnt == idList.length) {
-      document.getElementById("JoinForm").action = "./welcome.html";
+      document.getElementById("JoinForm").action = "./Welcome.jsp";
       alert("사용가능합니다");
     }
   }

@@ -101,3 +101,24 @@ form ul li {
   margin-left: 36%;
   margin-top: 20px;
 }
+
+
+#welcome_ment {
+  margin: 0 auto;
+  position: absolute;
+  top: 400px;
+  left: 25%;
+  width: 50%;
+  text-align:center;
+}
+
+#welcome_ment p {
+	font-size:30px;
+	
+}
+#welcome_ment p span {
+	font-weight:bold;
+	
+}
+
+
