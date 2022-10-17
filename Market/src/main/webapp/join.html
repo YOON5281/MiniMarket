@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>회원가입</title>
     <link href="main.css" type="text/css" rel="styleSheet" />
+    <script type="text/javascript" src="main.js"></script>
   </head>
   <body>
     <div id="Join">
       <h2>회원가입</h2>
-      <form action="./welcome.html">
+      <form action="" id="JoinForm">
         <ul>
-          <li>아이디(ID) : <input type="text" name="id" /></li>
-          <li>비밀번호(PW) : <input type="password" name="pw" /></li>
+          <li>아이디(ID) : <input type="text" name="id" id="joinID" /></li>
+          <li>비밀번호(PW) : <input type="password" name="pw"  id="joinPW" /></li>
           <li>이름 : <input type="text" name="name" /></li>
           <li>
             성별 :
@@ -38,7 +39,7 @@
             <label>운동복</label>
           </li>
           <li>
-            <input type="submit" value="회원가입" />
+            <input type="submit" value="회원가입" onclick="idCheck2()" />
           </li>
         </ul>
       </form>
