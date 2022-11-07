@@ -39,7 +39,7 @@ public class DBconnShop {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			System.out.println("Driver 로딩 성공!");
-			conn = DriverManager.getConnection(url, "root", "dkehskdl4701!");
+			conn = DriverManager.getConnection(url, "root", "root");
 
 			System.out.println("DB 접속 성공!");
 
