@@ -55,7 +55,7 @@ public class DBconnShop {
 //		String sql = "INSERT INTO testTable VALUES (?,?)";
 //		try {
 //			conn = DriverManager
-//					.getConnection(url,"root","dkehskdl4701!");
+//					.getConnection(url,"root","root");
 //			pstmt = conn.prepareStatement(sql);
 //		} catch (SQLException e) {
 //			// TODO Auto-generated catch block
